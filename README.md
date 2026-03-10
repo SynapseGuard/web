@@ -1,2 +1,2 @@
 # web
-Web for Apple Play
+Web for Stores
