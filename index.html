@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Account Deletion Request – SynapseGuard</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #f5f7fa;
+      color: #1a1a2e;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem 1rem;
+    }
+
+    .card {
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+      max-width: 640px;
+      width: 100%;
+      padding: 3rem 2.5rem;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #4f46e5;
+      margin-bottom: 0.25rem;
+    }
+
+    h1 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      color: #1a1a2e;
+    }
+
+    p {
+      line-height: 1.7;
+      color: #4a4a6a;
+      margin-bottom: 1rem;
+    }
+
+    ol {
+      padding-left: 1.4rem;
+      color: #4a4a6a;
+      line-height: 1.8;
+      margin-bottom: 1.5rem;
+    }
+
+    ol li {
+      margin-bottom: 0.5rem;
+    }
+
+    .highlight-box {
+      background: #eef2ff;
+      border-left: 4px solid #4f46e5;
+      border-radius: 6px;
+      padding: 1rem 1.25rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .highlight-box p {
+      margin-bottom: 0;
+      color: #3730a3;
+    }
+
+    a.email-link {
+      color: #4f46e5;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    a.email-link:hover {
+      text-decoration: underline;
+    }
+
+    .note {
+      font-size: 0.875rem;
+      color: #6b7280;
+      margin-top: 1.5rem;
+      border-top: 1px solid #e5e7eb;
+      padding-top: 1rem;
+    }
+
+    footer {
+      margin-top: 2rem;
+      font-size: 0.8rem;
+      color: #9ca3af;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="logo">SynapseGuard</div>
+    <h1>Request Account &amp; Data Deletion</h1>
+
+    <p>
+      We respect your privacy. If you would like to delete your SynapseGuard
+      account and have all of your personal data removed from our systems,
+      please follow the steps below.
+    </p>
+
+    <ol>
+      <li>Compose an email to our support team.</li>
+      <li>Use the subject line: <strong>Account Deletion Request</strong>.</li>
+      <li>Include the email address associated with your SynapseGuard account.</li>
+      <li>
+        Optionally, let us know the reason for your request (this helps us
+        improve our service, but it is not required).
+      </li>
+      <li>Send the email to the address below.</li>
+    </ol>
+
+    <div class="highlight-box">
+      <p>
+        <span aria-hidden="true">📧</span> Send your deletion request to:&nbsp;
+        <a class="email-link" href="mailto:info@synapseguard.com">info@synapseguard.com</a>
+      </p>
+    </div>
+
+    <p>
+      Once we receive your request, we will acknowledge it promptly and
+      complete the deletion of your account and all associated personal data
+      within <strong>30 days</strong>. You will receive a confirmation email
+      when the deletion is complete.
+    </p>
+
+    <p class="note">
+      Please note: Deleting your account is irreversible. All data associated
+      with your account, including your profile, history, and preferences, will
+      be permanently removed and cannot be recovered.
+    </p>
+  </div>
+
+  <footer>
+    &copy; <span id="yr"></span> SynapseGuard. All rights reserved.
+    <script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+  </footer>
+</body>
+</html>
